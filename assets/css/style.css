@@ -267,7 +267,7 @@ header .bottom-nav .items span:first-child {
 .Our-latest-video .hero-section .first-child .img {
   border-radius: 15px;
   height: 80%;
-  background-image: url("./assets/img/car-video.png");
+  background-image: url("/assets/img/car-video.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
