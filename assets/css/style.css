@@ -267,15 +267,11 @@ header .bottom-nav .items span:first-child {
 .Our-latest-video .hero-section .first-child .img {
   border-radius: 15px;
   height: 80%;
-  background-image: url("/assets/img/car-video.png");
+  background-image: url("../img/car-video.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin: 10px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
 }
 .Our-latest-video .hero-section .first-child .right-main-article-content {
   padding-left: 15px;
