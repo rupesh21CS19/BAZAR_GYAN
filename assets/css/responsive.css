@@ -1,0 +1,309 @@
+@media (max-width: 800px) {
+  header .navbar .container-fluid,
+  header .bottom-nav {
+    /* text-align: start; */
+    padding: 5px 10px;
+  }
+}
+@media (max-width: 400px) {
+  header .navbar .container-fluid .navbar-brand img {
+    width: 150px;
+  }
+}
+
+/* main main-heading  */
+
+@media (max-width: 600px) {
+  .main-heading {
+    padding: 0px 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+}
+
+/* main hero-section  */
+
+@media (max-width: 1300px) {
+  .hero-section .hero-contect {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 24px;
+  }
+  .hero-section .hero-contect .right-main-article p {
+    height: 100px;
+    overflow: hidden;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .hero-section .hero-contect .first-child {
+    height: 500px;
+  }
+
+  .hero-section .hero-contect .first-child .main-article-content {
+    padding: 10px;
+  }
+
+  .main-article-bottom-content {
+    gap: 10px;
+    margin: 5px 0;
+  }
+
+  .hero-section .hero-contect .first-child .main-article-content h2 {
+    font-size: 18px;
+  }
+
+  .hero-section .hero-contect .first-child .main-article-content span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero-section .hero-contect .first-child .main-article-content h2 {
+    font-size: 18px;
+  }
+
+  .hero-section .hero-contect .first-child .main-article-content span {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-section .hero-contect .first-child {
+    height: 300px;
+  }
+  .hero-section .hero-contect .first-child .main-article-content h2 {
+    font-size: 14px;
+  }
+
+  .hero-section .hero-contect .first-child .main-article-content span {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 344px) {
+  .hero-section .hero-contect .first-child {
+    padding: 0;
+  }
+  .hero-section .hero-contect .first-child .main-article-content h2 {
+    font-size: 12px;
+  }
+
+  .main-article-bottom-content {
+    font-size: 10px;
+    gap: 5px;
+  }
+}
+
+/* right-main-section  */
+@media (max-width: 685px) {
+  .hero-section {
+    padding: 0 10px;
+  }
+
+  .hero-section .hero-contect .right-main-article h5 {
+    line-height: 20px;
+  }
+
+  .hero-section .hero-contect .right-main-article p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .hero-section .hero-contect .right-main-article {
+    padding: 10px;
+    display: flex;
+    height: auto;
+    border: 1px solid black;
+    gap: 10px;
+    height: 206px;
+  }
+  .hero-section .hero-contect .right-main-article .right-main-article-content {
+    gap: 5;
+  }
+
+  .hero-section {
+    padding: 0 10px;
+  }
+
+  .hero-section .hero-contect .right-main-article .left-article-bottom-content {
+    font-size: 12px;
+  }
+
+  .hero-section .hero-contect .right-main-article h5 {
+    line-height: 20px;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+  }
+
+  .hero-section .hero-contect .right-main-article p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-section .hero-contect .right-main-article img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .hero-section .hero-contect .right-main-article {
+    height: 190px;
+  }
+
+  .hero-section .hero-contect .right-main-article p {
+    height: 75px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-section .hero-contect .right-main-article img {
+    width: 95%;
+    height: 70%;
+  }
+
+  .hero-section .hero-contect .right-main-article {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .hero-section .hero-contect .right-main-article .right-main-article-content {
+    font-size: 12px;
+    width: 95%;
+  }
+
+  .hero-section .hero-contect .right-main-article p {
+    height: 75px;
+    margin: auto;
+  }
+}
+
+/* -------------------------------------------Top stories start */
+
+@media (max-width: 1300px) {
+  .top-Stories .hero-contect {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 24px;
+  }
+
+  .top-Stories .hero-section .first-child {
+    grid-column: 1/2;
+  }
+}
+/* -----------------------------------------------top sprots section  */
+@media (max-width: 1300px) {
+  .Sports-section .right-main-article {
+    display: flex;
+    flex-direction: column;
+    /* height: 355px; */
+  }
+
+  .Sports-section .right-main-article .right-main-article-content {
+    height: auto;
+    padding: 0px 1px;
+  }
+
+  .Sports-section .right-main-article .right-main-article-content h5 {
+    font-size: 16px;
+  }
+
+  .Sports-section .right-main-article .right-main-article-content p {
+    line-height: 20px;
+    /* background-color: orange; */
+    /* height: 0px; */
+    padding-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .Sports-section
+    .right-main-article
+    .right-main-article-content
+    .left-article-bottom-content {
+    gap: 5px;
+    align-items: center;
+    margin: 4px 0;
+  }
+  .Sports-section
+    .right-main-article
+    .right-main-article-content
+    .left-article-bottom-content
+    span {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Sports-section .articles {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 680px) {
+  .Sports-section .articles {
+    padding: 10px 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Sports-section .articles {
+    grid-template-columns: auto;
+  }
+}
+
+/* ------------------------------------------------Our Latest Video */
+
+@media (max-width: 1300px) {
+  .Our-latest-video .hero-section .hero-contect {
+    grid-template-columns: auto;
+  }
+  .Our-latest-video .right-main-article {
+    flex-direction: row;
+  }
+  .Our-latest-video .right-main-article img {
+    width: 190px;
+  }
+}
+
+@media (max-width: 560px) {
+  .Our-latest-video .hero-section .first-child .img {
+    height: 70%;
+  }
+}
+
+@media (max-width: 400px) {
+  .Our-latest-video .hero-section .first-child .img {
+    height: 60%;
+  }
+
+  .Our-latest-video .hero-section .first-child .right-main-article-content {
+    gap: 50px;
+  }
+  .Our-latest-video .hero-section .first-child .right-main-article-content h5,
+  .Our-latest-video .hero-section .first-child .right-main-article-content p {
+    line-height: 20px;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+  }
+
+  .Our-latest-video
+    .hero-section
+    .first-child
+    .right-main-article-content
+    .left-article-bottom-content {
+    margin: 5px 0;
+    padding: 0;
+    font-size: 14px;
+    gap: 2px;
+  }
+}
