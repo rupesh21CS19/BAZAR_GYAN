@@ -194,7 +194,6 @@ header .bottom-nav .items span:first-child {
 }
 
 .top-Stories .hero-section .first-child {
-  background-color: blue;
   grid-column: 2/4;
 }
 /* -------------------------------------------- top sports section  */
@@ -249,6 +248,7 @@ header .bottom-nav .items span:first-child {
 
 .Our-latest-video {
   background-color: black;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -367,57 +367,6 @@ footer .second {
   font-size: 10px;
 }
 footer .second .home {
-  background-image: url("/assets/img/footer-home-background.jpg");
+  background-image: url("../img/footer-home-background.jpg");
   gap: 5px;
-}
-
-@media (max-width: 800px) {
-  footer .logo img {
-    width: 30vw;
-  }
-
-  footer .live-stream img {
-    width: 10vw;
-  }
-  footer .links {
-    display: flex;
-    gap: 20px;
-  }
-
-  footer .links img {
-    width: 4vw;
-  }
-}
-
-@media (max-width: 680px) {
-  footer {
-    padding: 10px 10px;
-  }
-}
-
-/*  */
-
-@media (max-width: 350px) {
-  .style-footer {
-    padding: 5px 10px;
-  }
-}
-
-@media (max-width: 400px) {
-  footer {
-    height: 68px;
-  }
-  footer .first {
-    display: none;
-  }
-  footer .second {
-    display: flex;
-    background-color: #111111;
-  }
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-    padding: 5px;
-  }
 }
